@@ -1,0 +1,30 @@
+body {
+    font-size: 16px;
+    background-image: url(../images/disney5.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+      }
+
+  #container{
+    margin: auto;
+    background-color: white;
+    max-width: 75%;
+    height: 600px;
+    display: block;
+    text-align: center;
+
+  }
+
+  h1{
+    font-family: 'Old Standard TT', serif;    font-size: 40px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(to left, #3333cc 6%, #9900cc 76%);
+
+  }
+
+  h4, h3,p{
+    font-family: 'Ribeye', cursive;
+  }
+

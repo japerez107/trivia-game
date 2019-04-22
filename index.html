@@ -6,6 +6,8 @@
     <title>Trivia Game</title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Rouge+Script" rel="stylesheet">
     <!-- jquery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- javascript -->
@@ -16,17 +18,38 @@
 <body>
 
     <header>
-        <div">
-            <h1>Trivia Game</h1>
-            </div>
+        <div>
+            <h1>Disney Movie Trivia</h1>
+        </div>
     </header>
 
-    <div class="container">
+    <div id="container">
+
+        <div id="start-button">
+            <button id="start">
+                <h2>Start</h2>
+            </button>
+        </div>
+
+
+        <div id="timer">
+            <h2>45</h2>
+        </div>
+
+        <div id="questions" >
+        
+        </div>
+       
+
+        <div id="answers" class="">
+            <p id="correct-answers"></p>
+            <p id="incorrect-answers"></p>
+            <p id="unanswered"></p>
+
+        </div>
+
 
     </div>
-
-
-
 
 </body>
 
