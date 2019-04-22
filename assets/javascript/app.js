@@ -51,14 +51,20 @@ $(document).ready(function () {
         correctAnswer: "Dopey"
     }];
 
-
+    // Got stuck on how to show questions to screen 
+    //i wanted to be able to save user info on what question/answer they chose
     function showQuestions() {
+
+        for (i = 0; i < questions.length; i++) {
+            var user = 
+            // if (user === questions[i].choices){
+
+            // }
+            // $("#questions").html(questions[i].show);
+        }
 
     }
 
-    // $('#correct-answers').text(correct);
-    // $('#incorrect-answers').text(incorrect);
-    // $('#unanswered').text(unanswered);
 
     // Start Button 
 
@@ -93,18 +99,18 @@ $(document).ready(function () {
     }
 
 
-
+// These would of been the functions to use to add each answer choice
 
     function rightAnswers() {
-
+        correct++;
     }
 
     function wrongAnswers() {
-
+        incorrect++;
 
     }
 
-
+// this would be the function that would show the final results of the answer choices
     function results() {
 
 
@@ -118,5 +124,8 @@ $(document).ready(function () {
     }
 
 
+    // $('#correct-answers').text(correct);
+    // $('#incorrect-answers').text(incorrect);
+    // $('#unanswered').text(unanswered);
 });
 
